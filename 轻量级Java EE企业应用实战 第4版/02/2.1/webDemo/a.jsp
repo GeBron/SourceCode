@@ -1,9 +1,9 @@
 <%@ page contentType="text/html; charset=GBK" language="java" errorPage="" %>
 <html>
 <head>
-	<title>��ӭ</title>
+	<title>欢迎</title>
 </head>
 <body>
-��ӭѧϰJava Web֪ʶ
+欢迎学习Java Web知识
 </body>
 </html>
