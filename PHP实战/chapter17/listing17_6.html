@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="STYLESHEET" href="app.css"/>
+    <script type="text/javascript" src="validation.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>
+        User registration
+      </h1>
+      <form method="POST" name="newsForm"
+        onSubmit="return visitAll(this)">
+        <input type="hidden" name="command" value="submitMessage"/>
+        <table width="500">
+          <tr>
+            <td class="InputLabel">Email address</td>
+            <td>
+              <input type="text" name="email"
+              onBlur="required(this,'Email address')"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="InputLabel">Password</td>
+            <td>
+              <input type="password" name="password"
+              onBlur="minLength(this,'Password','6')"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="InputLabel">Confirm password</td>
+            <td>
+              <input type="password" name="confirm"
+              onBlur="equalInputs(this,'Passwords','password')"/>
+            </td>
+          </tr>
+        </table>
+        <div id="Submit">
+          <input type="submit" value="Submit"/>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

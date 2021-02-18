@@ -1,0 +1,24 @@
+[www.actual-live-site.com]
+home = http://www.actual-live-site.com/
+;...
+
+[greedy]
+home = http://greedy/dagfinn/site/index.php
+db_host = localhost
+db = test
+db_username = me
+db_password = secret
+mail_host = localhost
+mail_port = 10025
+
+[weeble]
+home = http://weeble.local/marcus/dagfinn_book/dagfinns_book/source_code/taking_control_with_web_tests/site/
+db_host = localhost
+db = test
+db_username = me
+db_password = secret
+mail_host = localhost
+mail_port = 10025
+
+; These entries were Marcus' home machines. Only you
+; can add your machine...

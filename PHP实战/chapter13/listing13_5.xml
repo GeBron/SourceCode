@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<userlist>
+  <user>
+    <username>victor</username>
+    <firstname>Victor</firstname>
+    <lastname>Ploctor</lastname>
+    <email>victor@example.com</email>
+    <role>regular</role>
+    <id>1</id>
+  </user>
+  <!-- More users on the same format -->1
+</userlist>

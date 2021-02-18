@@ -1,0 +1,25 @@
+<html metal:define-macro="page">
+  <head>
+    <link rel="STYLESHEET"
+      href="../css/hazycrazy.css" media="screen
+    <title metal:define-slot="title">                                 
+      Hazycrazy.com default title                                     
+    </title>                                                          
+  </head>
+  <body>
+    <div id="banner">                                                 
+      <img src="../img/hazycrazy2.png" width="519" />                 
+    </div>                                                            
+    <div id="menu">                                                   
+      <a href="life.php">Life</a>                                     
+      <a href="pets.php">Pets</a>                                     
+      <a href="computers.php">Computers</a>                           
+      <a href="social.php">Socializing</a>                            
+    </div>                                                            
+    <div id="content" metal:define-slot="content" />                   
+    <div id="sidebar">
+      <h1>News</h1>
+      <span tal:replace="news">
+    </div>
+  </body>
+</html>

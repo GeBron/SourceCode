@@ -1,0 +1,24 @@
+<?php
+Array
+(
+    [0] => Array
+        (
+            [user_id] => 1
+            [username] => victor
+            [firstname] => Victor
+            [lastname] => Ploctor
+            [password] => 5d009bfda017b80dd1ce08c7e68458be
+            [email] => victor@example.com
+            [usertype] => regular
+        )
+
+    [1] => Array
+        (
+            [user_id] => 2
+            [username] => elietta
+            [firstname] => Elietta
+            [lastname] => Floon
+            [password] => 7db7c42a13bd7e3202fbbc94435fb85a
+            [email] => elietta@example.com
+            [usertype] => regular
+        )

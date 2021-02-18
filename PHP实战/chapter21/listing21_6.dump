@@ -1,0 +1,23 @@
+Array
+(
+    [0] => User Object
+        (
+            [user_id] => 1
+            [username] => victor
+            [firstname] => Victor
+            [lastname] => Ploctor
+            [password] => c7e72687ddc69340814e3c1bdbf3e2bc
+            [email] => victor@example.com
+            [usertype] => regular
+        )
+
+    [1] => User Object
+        (
+            [user_id] => 2
+            [username] => elietta
+            [firstname] => Elietta
+            [lastname] => Floon
+            [password] => 053fbca71905178df74c507637966e02
+            [email] => elietta@example.com
+            [usertype] => regular
+        )

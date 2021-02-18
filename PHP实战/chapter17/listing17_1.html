@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function validate(form) {                                       
+        var valid = true;                                             
+        if (form.elements['headline'].value == '') {                  
+          alert("'Headline' must be filled in");                      
+          valid = false;                                              
+        }
+        if (form.elements['text'].value == '') {
+          alert("'Text' must be filled in");
+          valid = false;
+        }
+        return valid;                                                  
+      }
+    </script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>
+        Post message
+      </h1>
+      <form method="POST"  onSubmit="return validate(this)">           
+        <input type="hidden" name="command"
+        value="submitMessage" />
+        <table width="500">
+          <tr>
+            <td class="InputLabel">Headline:</td>
+            <td>
+              <input type="text" name="headline" size="30"/>
+            </td>
+          </tr>
+          <tr>
+            <td class="InputLabel">Text:</td>
+            <td>
+              <textarea name="text" rows="20" /></textarea>
+            </td>
+          </tr>
+        </table>
+        <div id="Submit">
+          <input type="submit"  value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
